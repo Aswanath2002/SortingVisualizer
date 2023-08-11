@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(238, 187, 187);
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    width: 616px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 100px auto;
+    background-color: rgb(216, 239, 216);
+
+}
+
+.grid div{
+    width: 60px;
+    height: inherit;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: x-large;
+}
+
+.exchange{
+    background-color: red;
+}
+
+/* styles.css */
+label {
+    color: rgb(6, 0, 0);
+    font-size: 25px;
+}
+
+button {
+    /* Basic styling */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(238, 187, 187);
+    color: black;
+    cursor: pointer;
+
+    /* Hover effect */
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #cfe2f7;
+}
+
+/* Additional styles */
+button.large {
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+button.primary {
+    background-color: #28a745;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+/* Add more styles as needed */
+
+input{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(238, 187, 187);
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
